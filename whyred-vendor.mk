@@ -1222,6 +1222,7 @@ PRODUCT_PACKAGES += \
     DeviceInfo \
     QtiTelephonyService \
     datastatusnotification \
+    audiosphere \
     embms \
     imssettings \
     dpmserviceapp \
