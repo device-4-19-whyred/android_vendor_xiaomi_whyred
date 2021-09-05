@@ -107,6 +107,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/xiaomi/whyred/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/whyred/proprietary/vendor/bin/dspservice:$(TARGET_COPY_OUT_VENDOR)/bin/dspservice \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libadsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libcdsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmdsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsdsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib64/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libadsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcdsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/system_ext/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdsprpc_system.so \
+    vendor/xiaomi/whyred/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/whyred/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/whyred/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
@@ -727,7 +736,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/xiaomi/whyred/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib/wlibfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libft2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2vendor.so \
