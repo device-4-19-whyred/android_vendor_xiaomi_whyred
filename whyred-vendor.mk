@@ -1269,6 +1269,7 @@ PRODUCT_PACKAGES += \
     QCC-TR-UI \
     QtiTelephonyService \
     datastatusnotification \
+    audiosphere \
     embms \
     imssettings \
     dpmserviceapp \
