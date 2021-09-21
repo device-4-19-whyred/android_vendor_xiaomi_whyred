@@ -31,11 +31,11 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-service vendor.cdsprpcd /vendor/bin/cdsprpcd
-   class main
-   user system
-   group system
-   disable
+#service vendor.cdsprpcd /vendor/bin/cdsprpcd
+#   class main
+#   user system
+#   group system
+#   disable
 
-on property:vendor.fastrpc.disable.cdsprpcd.daemon=1
-   stop vendor.cdsprpcd
+#on property:vendor.fastrpc.disable.cdsprpcd.daemon=1
+#   stop vendor.cdsprpcd
